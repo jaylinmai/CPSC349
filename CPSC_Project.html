@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"> <!-- this helps me solve my problems -->>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Mai Portfolio </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body { scroll-behavior: smooth; background-color: pink; }
+    .nav-link { transition: color 0.3s ease; }
+    .nav-link:hover { color: white !important; }
+    section { padding: 60px 0; }
+    .project-card { transition: transform 0.3s; }
+    .project-card:hover { transform: scale(1.03); }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">Mai Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home Section -->
+  <section id="home" class="text-center">
+    <div class="container">
+      <img src="https://ci3.googleusercontent.com/mail-img-att/AGAZnRosATR_4SwWiqTLAOlCd8Xzye-sjniq1ZRAt4dukP7m0ddx_pKWCedfA_fPWusy3J60SkcBcaKrTk98HhkaN1z967BSFarPAcXoxListH3win3ldHktZq94BvWe7NjH7i3qIz9MrKIq0rohD_IEwH5wxjejVWYqZ5DFEgMfkk9UX8y4UKCZUryaLvrq_6VcoEChPDruQ4hGLF82WDtOdoZ9hMtdt0dlvY5Goht_FQkb5bG7O8jHUceaiM94UpC60y7GYxddE9wL2OL_LE5yv6sDP79muyXKci8g8alavOq9PVIkSLGknlcZxmOVZwuGOv8OHLxHifpYd6JS5NCbOOdbOKZgaeFsQ3HWXGqG3wzrUAB0Ph19B8pRRcpOx6fT-uq5AiKfyjpKyiqK5JpGSpKPTm6yrFTHMUFFF4RnqIrZGQzWT3r2N461kaqQD2u89luO6-30NwxaxI2AZMNKtGS2ZZDmQNhhcWa_Ozwj7Sx4ymgrS5eNho3dllVkXZVwKGzX1R57sdBg6IrpN47vt0supxY5jTQXbjo_9ei4RsYPRhsGk9HAGQchJm9xHWKluI3QeXMznSU3DHO5KcNeBPhQGtjvqlNxx6MYuRLclok5BwPnOa6ChCKJEOcN67J7pTD4d0ZjIBTPA-KAGws954NbSZtDAPzSPkDo5fSu2keVB0y9g4bDxGp5-ZOMFvrAbY9_yzHsK6JLbFjvoPUoOXRSFYIg354F8Vm4mi5-izemioWBpmbkjS728WuQEm1RvJRxAbHSGRihirq2Owgvdk_V9gksRDPv33tl-XJxbqJX8_NrG-MzRSeoUkY9b_J1EJdzjY96KKhQMUhpz5V7wrRTEGVU153bH7khGy9ZB2VVzHGPsVWVTGivBqAgE2LiTrROjXlI1T4Kz7p7sRhwRm-HWEwE6zjGV6axaVRDMNBlQDNsQdcBgu3IyNUDEJ9p-cUvZDrI2a7oeHqWoHa46aIt0P8n2F8atGTm8_Ala2kr616mn3aA6euKr_J_ma6uo-87ST31INO4zmnD6T1R0n69SKIKwPQ=s0-l75-ft" 
+      alt = "Profile Photo"
+      style = "width: 150px ; height: auto;" 
+      class="round-circle mb-3">
+      <h1>Hello, I'm Jaylin Mai</h1>
+      <p class="lead">Web Developer | Designer | Electrical Engineer  </p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-light">
+    <div class="container">
+      <h2>About Me</h2>
+      <p> Currently, I am an Electrical Engineering student at California State University, Fullerton, with a minor in Computer Science and an expected graduation date of May 2026. I have some leadership experience as a Team Lead at Jamba, research experience from a summer program at CSUF, and an internship at Salas O’Brien. She is also an active member of the Women in Computer Science Engineering Club, where she engages in professional development and advocates for diversity in STEM.</p>
+      <a href="https://docs.google.com/document/d/1CFmqmobR7mYMbAVGTlqF6YzH6aV4Qzdjth8XtAVwF3M/edit?usp=sharing" download>Download Resume</a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <div class="container">
+      <h2>Projects</h2>
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card h-100">
+            <div class="card-body text -center">
+              <h5 class="card-title">Creating a Website</h5>
+              <p class="card-text">Tech: HTML, CSS, JS</p>
+              <p>Challenge: Design and program my own web page that display my: information, resume, and skills.</p>
+              <a href="https://docs.google.com/document/d/1DSmizAo-k-jVpaPdxcavSLxstDpmcWSzz8AuhW0w80I/edit?usp=sharing" class="btn btn-outline-primary">View Details</a>
+              <img src="https://d3h2k7ug3o5pb3.cloudfront.net/image/2020-12-03/84256810-354d-11eb-be48-092568f6a231.jpg"
+              style = "width: 180px; height: auto;">
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <div class="card project-card h-100">
+            <div class="card-body text-center">
+                <h5 class="card-title"> RTX Drone Project</h5>
+                <p class="card-text">Skills: Organizing, Teamwork, Documentation</p>
+                <p>Challenge: Creating a drone that will particate in the Raytheon Drone Competition.</p>
+                <a href="https://docs.google.com/document/d/1OOI7yr8_rdBocOCoHLfJCf8wmMt9RqM6Lw7tcDU35lg/edit?usp=sharing" class="btn btn-outline-primary">View Details</a>
+                <img src="https://www.build-electronic-circuits.com/wp-content/uploads/2018/05/Drone-768x513.jpg"
+                style = "width: 175px; height: auto;">
+              </div>
+            </div>
+          </div>
+
+                <div class="col-md-4 mb-4">
+                  <div class="card project-card h-100">
+                    <div class="card-body text-center">
+                        <h5 class="card-title"> ASSURE-US Summer Research</h5>
+                        <p class="card-text">Skills: Collaboration with faculty, Presentation, Prototype </p>
+                        <p>Challenge: Present the research called "Design and Validation of a Traffic Light Controller Utilzing 555 timer and 4017 ICs at the Southern California Conference".</p>
+                        <a href="https://docs.google.com/document/d/1CP3bn4P71_EOumFwzH0YhL26D2RS4VrrGEuYeePE55Y/edit?usp=sharing" class="btn btn-outline-primary">View Details</a>
+                        <img src="https://media.licdn.com/dms/image/v2/D5622AQEyMlAohBMWFA/feedshare-shrink_800/feedshare-shrink_800/0/1688348358192?e=2147483647&v=beta&t=UjsZRHiOUTjh2fR6wLS203CrG6MeXnGoQyWGmlG6Ch8"
+                        style = "width: 175px; height: auto;">
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+   <!--<style> section {background-color: white } </style> -->
+  <section id="skills" class="bg-light">
+    <div class="container">
+      <h2>Skills</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <h5>Technical Skills</h5>
+          <ul>
+            <li>HTML5, CSS3, JavaScript</li>
+            <li>Bootstrap, Responsive Design</li>
+            <li>Version Control (Git)</li>
+            <li>3D Modeling, CAD</li>
+            <li>Mulitsim</li>
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <h5>Non-Technical Skills</h5>
+          <ul>
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+            <li>Leadership</li>
+            <li>Planning</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <form>
+        <div class="mb-3">
+          <label for="name" class="form-label">Name</label>
+          <input type="text" class="form-control" id="name" required>
+        </div>
+        <div class="mb-3">
+          <label for="email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="email" required>
+        </div>
+        <div class="mb-3">
+          <label for="message" class="form-label">Message</label>
+          <textarea class="form-control" id="message" rows="3" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+      <div class="mt-3">
+        <a href="https://linkedin.com/in/jaylin-mai" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-3 bg-light">
+    &copy; 2025 Jaylin Mai. All rights reserved.
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
